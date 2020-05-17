@@ -16,5 +16,8 @@ class Calculator
     {
         return $a / $b;
     }
- 
+  public function par($a): float
+    {
+        return $a % 2;
+    }
 }
