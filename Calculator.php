@@ -18,6 +18,6 @@ class Calculator
     }
   public function par($a): float
     {
-        return $a % 2;
+        return ($a % 2==0);
     }
 }
