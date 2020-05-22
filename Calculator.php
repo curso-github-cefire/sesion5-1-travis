@@ -22,7 +22,7 @@ class Calculator
 		$contador=0;
 		while($contador<$b)
 		{
-			$a=$a*$b;
+			$a=$a*$a;
 			$contador=$contador+1;
 		}
         return $a;
