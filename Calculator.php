@@ -25,6 +25,8 @@ class Calculator
 			$a=$a*$a;
 			$contador=$contador+1;
 		}
+		
+
         return $a;
     }
 	
