@@ -19,11 +19,11 @@ class Calculator
 	
 	public function potencia($a, $b): float
     {
-		$cont=0;
-		while(cont<$b)
+		$contador=0;
+		while($contador<$b)
 		{
 			$a=$a*b;
-			$cont=$cont+1;
+			$contador=$contador+1;
 		}
         return $a;
     }
