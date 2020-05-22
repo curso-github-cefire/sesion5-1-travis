@@ -17,18 +17,6 @@ class Calculator
         return $a / $b;
     }
 	
-	public function potencia($a, $b): float
-    {
-		$contador=0;
-		while($contador<$b)
-		{
-			$a=$a*$a;
-			$contador=$contador+1;
-		}
-		
-
-        return $a;
-    }
 	
     public function par($a): float
     {

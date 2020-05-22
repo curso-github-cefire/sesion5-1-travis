@@ -5,11 +5,7 @@ require 'Calculator.php';
 class CalculatorTest extends TestCase
 {
     private $calculator;
-    public function testPotencia(): void
-    {
-        $result = $this->calculator->potencia(5, 2);
-        $this->assertEquals(25, $result);
-    }
+    
     protected function setUp(): void
     {
         $this->calculator = new Calculator();
