@@ -4,7 +4,7 @@ class Calculator
  
     public function add($a, $b): float
     {
-        return $a - $b;
+        return $a + $b;
     }
 
     public function multiply($a, $b): float
