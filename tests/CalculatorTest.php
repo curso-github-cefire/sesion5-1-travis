@@ -22,6 +22,12 @@ class CalculatorTest extends TestCase
         $this->assertEquals(3, $result);
     }
 
+    public function testSub(): void
+    {
+        $result = $this->calculator->sub(5, 3);
+        $this->assertEquals(2, $result);
+    }
+
     public function testMultiply(): void
     {
         $result = $this->calculator->multiply(5, 2);

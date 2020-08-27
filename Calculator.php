@@ -7,6 +7,11 @@ class Calculator
         return $a + $b;
     }
 
+    public function sub($a, $b): float
+    {
+        return $a - $b;
+    }
+
     public function multiply($a, $b): float
     {
         return $a * $b;
