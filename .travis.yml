@@ -4,4 +4,7 @@ php:
 before_script:
   - composer install
 script: composer test
-
+deploy:
+deploy:
+  provider: heroku
+  app: 75c59ff6-9503-4637-9da1-22f11b81c4a0

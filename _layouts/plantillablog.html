@@ -1,0 +1,11 @@
+
+
+    {% for post in site.posts %}
+    <article>
+        <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+        <p>Publicado el {{post.date}}</p>
+        <p>{{ post.excerpt }}</p>
+    </article>
+    <hr>
+    {% endfor %}
+
